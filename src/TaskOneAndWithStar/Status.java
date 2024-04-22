@@ -1,3 +1,5 @@
+package TaskOneAndWithStar;
+
 import java.util.Objects;
 
 public class Status implements Cloneable{
@@ -30,7 +32,7 @@ public class Status implements Cloneable{
 
     @Override
     public String toString() {
-        return "Status{" +
+        return "TaskOneAndWithStar.Status{" +
                 "status='" + status + '\'' +
                 '}';
     }

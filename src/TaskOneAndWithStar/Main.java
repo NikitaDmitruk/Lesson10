@@ -1,3 +1,5 @@
+package TaskOneAndWithStar;
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         User user1 = new User(1, "qwerty", "1234", new Status("VIP"));
         User user2 = new User(2, "qwerty", "1234", new Status("VIP"));
-        User clone = null;
+        User clone;
         System.out.println("В базе данных имеются следующие пользователи: \n" + user1 + "\n" + user2 + "\nВведите id пользователя, которого хотите клонировать:");
         if (scanner.hasNextInt()) {
             int id = scanner.nextInt();

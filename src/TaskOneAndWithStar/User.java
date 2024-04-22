@@ -1,4 +1,4 @@
-import jdk.jshell.JShell;
+package TaskOneAndWithStar;
 
 import java.util.Objects;
 
@@ -62,7 +62,7 @@ public class User implements Cloneable {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "TaskOneAndWithStar.User{" +
                 "id=" + id +
                 ", login='" + login + '\'' +
                 ", password='" + password + '\'' +
